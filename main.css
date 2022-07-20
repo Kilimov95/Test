@@ -1,8 +1,10 @@
-.container1 {
+.box1 {
   background-color: rgb(255, 0, 0);
   width: 200px;
   height: 200px;
   position: absolute;
-  left: 50%;
-  top: 50%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: calc(50% - 100px);
 }
