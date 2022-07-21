@@ -20,12 +20,22 @@
 }
 
 .box3 {
+  background-color: bisque;
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  top: calc(50% - 100px);
+  left: calc(50% - 100px);
+}
+
+.box4 {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.box3 div {
+.box44 {
+  background-color: bisque;
   width: 200px;
   height: 200px;
-  background-color: blueviolet;
+  margin: calc(50% - 100px);
 }
